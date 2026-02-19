@@ -1,10 +1,4 @@
-# Write your code below this line 👇
-print("hello world")
-print("final time ?")
-print("- FINAL TIME\nhello world")
-
-print("hello world\nhello world\nhello world")
-print("hello"+" "+"Puneeth")
-print("I'm tired of writing ,hello world")
-print("I'm sorry")
-print("mother")
+print("welcome to band name generator")
+city = input("what is the name of you're city you are from ")
+pet_name = input("what's your pet name ")
+print(f"my band name will be{city} {pet_name}")
