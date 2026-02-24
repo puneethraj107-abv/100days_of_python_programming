@@ -22,3 +22,20 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+
+choice1=input("do you wanna go left or right")
+if choice1=="left":
+    choice2=input("do you wanna swim or wait")
+    if choice2=="wait":
+        choice3=input("do you you have three doors red, yellow, blue")
+        if choice3=="yellow":
+            print("you survived the game congradulation,you win")
+        else:
+            print("wrong choice,game over")
+    else:
+        print("you were eaten by crocodiles, game over")
+else:
+    print("you got lost game over")
+
+#print('\) - to print( ' ) while using single quote
+#
