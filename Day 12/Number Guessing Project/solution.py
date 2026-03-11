@@ -48,7 +48,7 @@ def game():
         turns = check_answer(guess, answer, turns)
         if turns == 0:
             print("You've run out of guesses, you lose.")
-            return
+            return#ends the program
         elif guess != answer:
             print("Guess again.")
 

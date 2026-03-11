@@ -1,4 +1,4 @@
-# Modifying Global Scope
+#Modifying Global Scope
 
 enemies = 1
 
@@ -11,5 +11,3 @@ def increase_enemies():
 
 increase_enemies()
 print(f"enemies outside function: {enemies}")
-
-
